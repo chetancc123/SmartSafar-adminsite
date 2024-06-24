@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .sidebar {
+      width: 50px;
+    }
+  
+    .sidebar .menu-item {
+      display: none;
+    }
+  }
+  
+  /* Desktop view */
+  @media (min-width: 769px) {
+    .sidebar {
+      width: 200px;
+    }
+  
+    .sidebar .menu-item {
+      display: block;
+    }
+  }
+  
